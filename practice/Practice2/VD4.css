@@ -1,0 +1,10 @@
+
+        .right{background-color:red;
+            color: blue;
+            flex: 0.5
+        }
+        .left{background-color:blue;
+            color: red;
+            flex: 0.5;
+        }
+  
