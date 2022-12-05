@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- <!DOCTYPE html>
+<html-- lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,28 +16,130 @@
     <div class="div_parent" style="display: flex">
       <div style="width: 70%">
         <div
-        class="section"
+        class="div_section"
         style="text-align: center; border-style: groove; height: 100px;">
         Section
       </div>
      
       <div
-        class="article"
+        class="div_article"
         style="text-align: center; border-style: groove; height: 100px;">
         article
       </div>
     </div>
       <div
-        class="aside"
+        class="div_aside"
         style="text-align: center; border-style: groove; height: 200px; width: 30%;">
         aside
       </div>
     </div>
    
     <div
-      class="footer"
+      class="div_footer"
       style="text-align: center; height: 20px; border-style: groove">
       footer
     </div>
   </body>
+</html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    .container{
+      background-color: #ccc;
+      height: 98vh;     
+      padding: 5px;
+      
+
+    }
+    .div_header, .div_nav, .div_footer{
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      border: 1px solid;
+      height: 10%;
+    }
+    .div_content{
+      background-color: #ccc;
+      display: flex;      
+      height: 68vh;      
+      margin-top: 5px;
+      flex: 1;
+    }
+    .div_left{
+      flex: 0.7;
+      background-color: #ccc;
+      
+      display: flex;
+      flex-direction: column;
+      
+
+    }
+    .div_right{
+      flex: 0.3;
+      border: 1px solid;
+      margin-left: 5px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .div_section{
+      background-color: white;
+      display: flex;
+      height: 50%;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      margin-bottom: 5px;
+    }
+    .div_article{
+      background-color: white;
+      display: flex;
+     
+      align-items: center;
+      justify-content: center;      
+      border: 1px solid;
+      
+      margin-bottom: 5px;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="div_header">
+      	&#60;Header&#62;
+    </div>
+    <div class="div_nav">
+      &#60;Nav&#62;
+    </div>
+    <div div class="div_content">
+    <div class="div_left">
+      <div class="div_section">
+        &#60;section&#62;
+      </div>
+      <div class="div_article">
+        &#60;article&#62;
+      </div>
+    </div>
+    <div class="div_right">
+      &#60;aside&#62;
+    </div>
+    </div>
+    <div class="div_footer">
+          &#60;Footer&#62;
+
+  </div>
+</body>
 </html>
