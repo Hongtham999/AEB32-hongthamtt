@@ -1,0 +1,16 @@
+body {
+    margin: 10px;
+  }
+  /* .col-content{
+    border-bottom: 1px groove;
+   } */
+  .box {
+    background-color: rgb(166, 255, 255);
+    padding: 10px;
+  }
+  img{
+    object-fit: contain;
+  }
+  .foot{
+    margin-top: 50px;
+  }
