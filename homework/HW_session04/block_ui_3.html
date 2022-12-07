@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      .row {
+        background-color: rgb(196, 219, 240);
+        height: 500px;
+        padding: 40px;
+      }
+      .col {
+        background-color: white;
+        height: 250px;
+        border: 1px solid;
+        box-shadow: 5px 3px gray;
+        margin: 15px;
+      }
+      .number {
+        font-size: 50px;
+        color: rgb(70, 171, 171);
+        margin-bottom: 8px;
+      }
+      .word {
+        margin-top: 8px;
+      }
+      .center {
+        border: 1px solid gray;
+        padding: 0;
+        margin: -12px;
+        margin-bottom: 10px;
+      }
+      .content2 {
+        display: flex;
+      }
+      .percent1 {
+        background-color: red;
+        width: 20px;
+        height: 70px;
+        margin: 20px 20px 10px 20px;
+      }
+      .pc1 {
+        background-color: white;
+        border: 1px solid gainsboro;
+        height: 40px;
+      }
+      .percent2 {
+        background-color: rgb(74, 198, 52);
+        width: 20px;
+        height: 70px;
+        margin: 20px 20px 10px 20px;
+      }
+      .pc2 {
+        background-color: white;
+        border: 1px solid gainsboro;
+        height: 50px;
+      }
+      .percent3 {
+        background-color: rgb(199, 223, 59);
+        width: 20px;
+        height: 70px;
+        margin: 20px 20px 10px 20px;
+      }
+      .pc3 {
+        background-color: white;
+        border: 1px solid gainsboro;
+        height: 30px;
+      }
+      .percent4 {
+        background-color: rgb(59, 215, 223);
+        width: 20px;
+        height: 70px;
+        margin: 20px 20px 10px 20px;
+      }
+      .pc4 {
+        background-color: white;
+        border: 1px solid gainsboro;
+        height: 20px;
+      }
+      .percent5 {
+        background-color: rgb(223, 122, 59);
+        width: 20px;
+        height: 70px;
+        margin: 20px 30px 10px 20px;
+      }
+      .pc5 {
+        background-color: white;
+        border: 1px solid gainsboro;
+        height: 30px;
+      }
+      .cl1,
+      .cl2,
+      .cl3,
+      .cl4,
+      .cl5 {
+        flex: 0.2;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="row text-center">
+        <div class="col cl1">
+          <div class="content1">
+            <div class="word">TODAY'S VISITORS</div>
+            <div class="number">24,599</div>
+          </div>
+          <div class="center"></div>
+          <div class="content2">
+            <div class="chart1">
+              <div class="percent1">
+                <div class="pc1"></div>
+              </div>
+              <div class="date">MON</div>
+            </div>
+            <div class="chart2">
+              <div class="percent2">
+                <div class="pc2"></div>
+              </div>
+              <div class="date">TUE</div>
+            </div>
+            <div class="chart3">
+              <div class="percent3">
+                <div class="pc3"></div>
+              </div>
+              <div class="date">WED</div>
+            </div>
+            <div class="chart4">
+              <div class="percent4">
+                <div class="pc4"></div>
+              </div>
+              <div class="date">THU</div>
+            </div>
+            <div class="chart5">
+              <div class="percent5">
+                <div class="pc5"></div>
+              </div>
+              <div class="date">FRI</div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col cl2">
+          <div class="content1">
+            <div class="word">YESTERDAY'S VISITORS</div>
+            <div class="number">15,699</div>
+          </div>
+          <div class="center"></div>
+          <div class="content2">
+            <div class="chart1">
+              <div class="percent1">
+                <div class="pc1"></div>
+              </div>
+              <div class="date">MON</div>
+            </div>
+            <div class="chart2">
+              <div class="percent2">
+                <div class="pc2"></div>
+              </div>
+              <div class="date">TUE</div>
+            </div>
+            <div class="chart3">
+              <div class="percent3">
+                <div class="pc3"></div>
+              </div>
+              <div class="date">WED</div>
+            </div>
+            <div class="chart4">
+              <div class="percent4">
+                <div class="pc4"></div>
+              </div>
+              <div class="date">THU</div>
+            </div>
+            <div class="chart5">
+              <div class="percent5">
+                <div class="pc5"></div>
+              </div>
+              <div class="date">FRI</div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col cl3">
+          <div class="content1">
+            <div class="word">TOTAL DOWLOADS</div>
+            <div class="number">1,24,599</div>
+          </div>
+          <div class="center"></div>
+          <div class="content2">
+            <div class="chart1">
+              <div class="percent1">
+                <div class="pc1"></div>
+              </div>
+              <div class="date">MON</div>
+            </div>
+            <div class="chart2">
+              <div class="percent2">
+                <div class="pc2"></div>
+              </div>
+              <div class="date">TUE</div>
+            </div>
+            <div class="chart3">
+              <div class="percent3">
+                <div class="pc3"></div>
+              </div>
+              <div class="date">WED</div>
+            </div>
+            <div class="chart4">
+              <div class="percent4">
+                <div class="pc4"></div>
+              </div>
+              <div class="date">THU</div>
+            </div>
+            <div class="chart5">
+              <div class="percent5">
+                <div class="pc5"></div>
+              </div>
+              <div class="date">FRI</div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col cl4">
+          <div class="content1">
+            <div class="word">CURRENT INCOME</div>
+            <div class="number">$54,599</div>
+          </div>
+          <div class="center"></div>
+          <div class="content2">
+            <div class="chart1">
+              <div class="percent1">
+                <div class="pc1"></div>
+              </div>
+              <div class="date">MON</div>
+            </div>
+            <div class="chart2">
+              <div class="percent2">
+                <div class="pc2"></div>
+              </div>
+              <div class="date">TUE</div>
+            </div>
+            <div class="chart3">
+              <div class="percent3">
+                <div class="pc3"></div>
+              </div>
+              <div class="date">WED</div>
+            </div>
+            <div class="chart4">
+              <div class="percent4">
+                <div class="pc4"></div>
+              </div>
+              <div class="date">THU</div>
+            </div>
+            <div class="chart5">
+              <div class="percent5">
+                <div class="pc5"></div>
+              </div>
+              <div class="date">FRI</div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
