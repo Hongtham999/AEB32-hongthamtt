@@ -50,11 +50,11 @@ function basic() {
 // input type: checkbox, radio --> elm.checked
 
 // 1 khoi tao func vaf cosole.log('func')
-// 2 handle even : set thuoc tinh event truoc the mo cua elm html5
+// 2 handle even : set thuoc tinh event truoc the mo cua elm html5 (o file confirm.html)
 // truyen ten func
 // 3. viet cac cau lenh vao trong func
 
-// vs:  change text
+// vd:  change text
 // 5 get elm: document.grtElementById('#Id')
 // 6 ,console.log (elm)
 // 7 elm.style.color
