@@ -1,0 +1,28 @@
+let input = "1,2,3,4"; //string
+let ar = input.split(",");
+//array [1,2,3,4] typeof :aray<string>
+// index: 0 to ar.length, 0 to 4
+/**
+ * vong lap for
+ * index=0
+ * index = 0+1
+ * for (let index = 0; index < array.length; index++) {
+          console.log(ar[index]);
+          }
+ví dụ trên sẽ lấy được cái phần tử trong Array: a,b,c,d
+
+ */
+
+/**
+ * ar.forEach((element => {
+ * console.log(element);//log ra gia tri tu dau den cuoi
+ * })
+ * dung cho TH vong lap tu dau den cuoi
+ * cu phap: (input) => {code}
+ */
+
+/**ar.map: tuong tu vowis
+ * ar.map((elm)=>{
+ * console.log(elm)
+ * })
+ */

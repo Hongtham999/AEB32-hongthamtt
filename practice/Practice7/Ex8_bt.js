@@ -83,13 +83,6 @@ function bt10() {
     // console.log((n-2)*a + 2*(b/2)) //xhien cả 2 loại
     console.log(a * n);
   }
-
-  // console.log('mua 2lit voi gia', parseInt(n/2));
-  // console.log('mua 1lit voi gia', (n%2));
-  // c = parseInt(n/2);
-  // d = (n%2);
-  // console.log(c*a + d*b);
-  // console.log(d*a);
 }
 // bt10()
 function bt5() {
@@ -112,22 +105,58 @@ function bt5() {
     console.log("n khong phai la so nguyen to - No");
   }
 }
+// // hoacj
+// function checkNT(number) {
+//   let i = true;
+//   for (let index = 2; index < n; index++) {
+//    if (number % index === 0) {
+//     i = false;
+//    }
+//   }
+//   return i;
+// }
+// let res = checkNT();
+// console.log(res)
+
 // bt5();
 
+//bt6
+// check max, min
+function bt6() {
+  let a = prompt("Nhap so thu nhat");
+  let b = prompt("Nhap so thu hai");
+
+  if (a % b === 0) {
+    console.log(b);
+  } else {
+    for (let index = b; index >= 0; index--) {
+      if (a % index === 0 && b % index === 0) {
+        console.log(index);
+        break;
+      }
+    }
+  }
+}
+bt6();
+// max%min ===0 ->res = min
+// for 2-->min
+/** hoajc for 2-->min/2
+ * voi tim UCLN thi nen chon for nguoc, index --;
+ *
+ */
+//bt7
 function bt9() {
   let n = prompt("Nhap so n de phan tich thua so nguyen to");
   let demUoc = 0;
 
-for (let i = 2; i < n; i++) {
-  if (n%i == 0) {
-    document.write (i + '*' );
-    console.log(i + '*');
-    n = n/i;
-    demUoc += 1;
-  } else {
-    
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) {
+      document.write(i + "*");
+      console.log(i + "*");
+      n = n / i;
+      demUoc += 1;
+    } else {
+    }
   }
-  
 }
-}
-bt9()
+// bt9();
